@@ -12,34 +12,99 @@ body {
     grid-template-rows: 1fr 4fr;
 }
 
+/* ---------------------------------------Sidebar------------------------------------------ */
+
 .sidebar {
     background-color: rgb(59, 174, 250);
     display: grid;
     grid-column: 1 / 2;
     grid-row: 1 / 3; 
-    grid-template-rows: 6.3rem repeat(5, 3.5rem) 6.3rem repeat(2, 3.5rem);
+    grid-template-rows: 7.5rem repeat(6, 3.5rem) 6.5rem repeat(3, 3.5rem);
+}
+
+.sidebar .settings {
+    margin-top: 4rem;
 }
 
 .sidebar > div {
     color: white;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
-    margin: 20px;
+    margin: 1.3rem;
 }
 
 img {
     height: 2rem;
-    
+
 }
 
-.dashboard {
-    display: flex;
-    
+#dashboard > img {
+    height: 3.5rem;
 }
+
+#dashboard{
+    margin: 1.1rem;
+    font-size: 1.85rem;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+
+}
+
+.icon > div {
+    margin-bottom: 2.4px;
+    margin-left: 15px;
+}
+
+/* ---------------------------------------Sidebar------------------------------------------ */
 
 
 .header {
     
+}
+
+.search-bar {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+}
+
+.search-bar > input {
+    appearance: none;
+    border: none;
+    background-color: rgba(229, 235, 238, 0.993);
+    border-radius: 16px;
+    width: 40rem;
+    padding: .6rem;
+}
+
+.search-bar > input:hover  {
+    border: .15rem solid lightblue;
+}
+
+.search-bar > input:active {
+    border: .15rem solid lightgreen;
+}
+
+.profile-container > img {
+    height: 5.2rem;
+}
+
+.profile-name div:last-child {
+    font-size: 1.7rem;
+}
+
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 26rem;
+    align-items: center;
+    font-weight: 700;
+    margin-left: 1.65rem;
+    margin-top: 2rem;
 }
 
 .main-content {
