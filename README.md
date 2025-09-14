@@ -1,1 +1,3 @@
-# admin-dashboard-odin
+# Admin Dashboard Odin
+
+This repository contains my take on the Admin Dashboard project from The Odin Project’s full stack curriculum.  The goal was to build a responsive dashboard layout using semantic HTML, modern CSS (flexbox and grid), and vanilla JavaScript.  I experimented with organizing content into cards, designing navigation, and creating interactive widgets.  There are no frameworks or libraries—just handcrafted markup and styles.  To see the result, open `index.html` in a browser.  I’m proud of how this project taught me to structure complex layouts and think about user experience.
